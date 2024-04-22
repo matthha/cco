@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cco-staging-dc230-authRole",
+      "UnauthRoleArn": "arn:aws:iam::476351187131:role/amplify-cco-staging-dc230-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::476351187131:role/amplify-cco-staging-dc230-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-cco-staging-dc230-deployment",
+      "UnauthRoleName": "amplify-cco-staging-dc230-unauthRole",
+      "StackName": "amplify-cco-staging-dc230",
+      "StackId": "arn:aws:cloudformation:us-east-2:476351187131:stack/amplify-cco-staging-dc230/b6f6ea90-009f-11ef-ad2c-02602c7defed",
+      "AmplifyAppId": "d27nbemuh8b1o0"
+    },
+    "categories": {
+      "auth": {
+        "cco": {}
+      }
+    }
+  }
+}
