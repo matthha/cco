@@ -5,7 +5,6 @@ export const getProgress = /* GraphQL */ `
   query GetProgress($id: ID!) {
     getProgress(id: $id) {
       id
-      name
       userID
       progress
       createdAt
@@ -23,7 +22,6 @@ export const listProgresses = /* GraphQL */ `
     listProgresses(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        name
         userID
         progress
         createdAt
