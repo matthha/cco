@@ -1,0 +1,6 @@
+type Progress @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  userID: String
+  progress: AWSJSON
+}
