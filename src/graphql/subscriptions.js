@@ -5,6 +5,7 @@ export const onCreateProgress = /* GraphQL */ `
   subscription OnCreateProgress($filter: ModelSubscriptionProgressFilterInput) {
     onCreateProgress(filter: $filter) {
       id
+      name
       userID
       progress
       createdAt
@@ -17,6 +18,7 @@ export const onUpdateProgress = /* GraphQL */ `
   subscription OnUpdateProgress($filter: ModelSubscriptionProgressFilterInput) {
     onUpdateProgress(filter: $filter) {
       id
+      name
       userID
       progress
       createdAt
@@ -29,6 +31,7 @@ export const onDeleteProgress = /* GraphQL */ `
   subscription OnDeleteProgress($filter: ModelSubscriptionProgressFilterInput) {
     onDeleteProgress(filter: $filter) {
       id
+      name
       userID
       progress
       createdAt

@@ -36,7 +36,7 @@ import { ConfigProvider } from "antd";
 
 Amplify.configure(config);
 
-// const client = generateClient();
+const client = generateClient();
 const formFields = {
   signIn: {
     username: {

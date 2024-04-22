@@ -30,6 +30,7 @@ function Home(props) {
   // Used to initialize the user's progress
   // AWS needs the stringified version of progress for AWSJSON object to store it
   const newUser = { 'userID': `${props.user.username}`, 'progress': JSON.stringify([]) }
+  // console.log(props.user)
 
   const navigate = useNavigate();
   const handleCardClick = (module) => {
